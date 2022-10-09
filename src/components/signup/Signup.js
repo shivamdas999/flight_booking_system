@@ -1,6 +1,7 @@
 import React from "react";
 import './Signup.css';
 import { Link } from 'react-router-dom';
+import { signUp } from "../../services/user-service";
 
 
 function Signup() {
@@ -36,16 +37,12 @@ function Signup() {
               <input type="text" placeholder="Full Name" required="" />
             </div>
             <div className="row">
+              <i className="fas fa-user" />
+              <input type="text" placeholder="Username" required="" />
+            </div>
+            <div className="row">
               <i className="fa-regular fa-envelope" />
-              <input type="text" placeholder="Email" required="" />
-            </div>
-            <div className="row">
-              <i className="fa-solid fa-phone" />
-              <input type="" placeholder="Phone Number" required="" />
-            </div>
-            <div className="row">
-              <i className="fas fa-lock" />
-              <input type="password" placeholder="Password" required="" />
+              <input type="text" placeholder="Enter Email" required="" />
             </div>
             <div className="row">
               <i className="fas fa-lock" />

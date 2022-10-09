@@ -33,8 +33,8 @@ function Login() {
           </div>
           <form action="#">
             <div className="row">
-              <i className="fa-regular fa-envelope" />
-              <input type="text" placeholder="Email" required="" />
+              <i className="fas fa-user" />
+              <input type="text" placeholder="Username" required="" />
             </div>
             <div className="row">
               <i className="fas fa-lock" />

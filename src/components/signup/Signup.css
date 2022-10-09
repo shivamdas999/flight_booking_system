@@ -105,16 +105,16 @@ form .row input::placeholder{
 form .button input:hover{
   background: #3c3c3c;
 }
-.wrapper form .signup-link{
+.wrapper form .login-link{
   text-align: center;
   margin-top: 20px;
   font-size: 17px;
 }
-.wrapper form .signup-link a{
+.wrapper form .login-link a{
   color: #5c5c5c;
   text-decoration: none;
 }
-form .signup-link a:hover{
+form .login-link a:hover{
   text-decoration: underline;
   color: #3c3c3c;
 }

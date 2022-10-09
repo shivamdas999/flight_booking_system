@@ -20,7 +20,7 @@ body{
   overflow: hidden;
 }
 ::selection{
-  background: rgba(84, 85, 85, 0.3);
+  background: rgba(96, 98, 98, 0.3);
 }
 .container{
   max-width: 440px;

@@ -28,7 +28,6 @@
 .logo{
     width: 200px;
     cursor: pointer;
-
 }
 
 .navbar ul li{
@@ -42,7 +41,7 @@
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-
+    
 }
 
 .navbar ul li::after{
@@ -88,7 +87,7 @@ button{
     border-radius: 25px;
     font-weight: bold;
     border: 2px solid #5c5c5c;
-    background: transparent;
+    background: #fff;
     color: #000;
     cursor: pointer;
     position: relative;
@@ -104,7 +103,7 @@ span{
     left: 0;
     bottom: 0;
     z-index: -1;
-    transition: 0.7s;
+    /* transition: 0.7s; */
 }
 
 button:hover span{
@@ -112,5 +111,5 @@ button:hover span{
 }
 
 button:hover{
-    border: none
-}
+    border: none;
+}   

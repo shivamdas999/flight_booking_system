@@ -11,7 +11,7 @@ function Signup() {
         <div className="navbar">
           <button1 type="button">
             <span />
-            <Link to="/"><img src="logo.png" className="logo" /></Link>
+            <Link to="/">Flight Booking System</Link>
           </button1>
           <ul>
             <li>

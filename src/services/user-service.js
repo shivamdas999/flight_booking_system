@@ -1,9 +1,9 @@
 import { myAxios } from "./helper";
 
 
-export const signUp=(user)=>{
+export const signUp = (user) => {
 
-    return myAxios.post('/api/auth/signup').then((response)=>response.json())
+    return myAxios.post('/api/auth/signup').then((response) => response.json())
 };
 
 
